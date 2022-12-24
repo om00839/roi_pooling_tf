@@ -1,4 +1,9 @@
 *.pyc
 *.so
 *.o
-faster_rcnn_models
+
+.python-version
+
+.vscode/
+.ipynb_checkpoints/
+

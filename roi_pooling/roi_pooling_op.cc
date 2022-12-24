@@ -21,8 +21,10 @@ limitations under the License.
 #include "third_party/eigen3/unsupported/Eigen/CXX11/Tensor"
 #include "tensorflow/core/framework/op.h"
 #include "tensorflow/core/framework/op_kernel.h"
+#include "tensorflow/core/framework/shape_inference.h"
+#include "tensorflow/core/framework/common_shape_fns.h"
 #include "tensorflow/core/framework/tensor_shape.h"
-#include "work_sharder.h"
+#include "tensorflow/core/util/work_sharder.h"
 
 using namespace tensorflow;
 typedef Eigen::ThreadPoolDevice CPUDevice;
